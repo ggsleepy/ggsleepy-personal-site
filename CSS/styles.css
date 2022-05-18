@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace;
+  padding: 10em 10em;
+  background-image: url('../Images/Photo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:100% 20%;
+}
+
+.glass{
+  width: 400px;
+  height: 600px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+h2{
+  color: #BEA181;
+}
+a{
+  color: #BEA181;
+  text-decoration: none;
+}
