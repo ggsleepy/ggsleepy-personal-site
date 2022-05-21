@@ -14,9 +14,65 @@ body{
   background-position:100% 20%;
 }
 
+.about-body{
+  background: rgb(13,13,13);
+  background: linear-gradient(333deg, rgba(13,13,13,1) 40%, rgba(23,23,23,1) 100%);
+}
+
+.education-body{
+  background: rgb(13,13,13);
+  background: linear-gradient(333deg, rgba(13,13,13,1) 40%, rgba(23,23,23,1) 100%);
+}
+.certifications-body{
+  background: rgb(13,13,13);
+  background: linear-gradient(333deg, rgba(13,13,13,1) 40%, rgba(23,23,23,1) 100%);
+}
+.technical-body{
+  background: rgb(13,13,13);
+  background: linear-gradient(333deg, rgba(13,13,13,1) 40%, rgba(23,23,23,1) 100%);
+}
+
+.experince-body{
+  background: rgb(13,13,13);
+  background: linear-gradient(333deg, rgba(13,13,13,1) 40%, rgba(23,23,23,1) 100%);
+}
+
+
+
+
+
 .glass{
   width: 400px;
-  height: 600px;
+  height: 240px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  
+
+}
+.about-glass{
+  width: 500px;
+  height: 400px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  
+  margin: 0 auto;
+ 
+
+}
+
+.resume-glass{
+  width: 500px;
+  height: 400px;
   background-color: rgba(225, 225, 225, 0.1);
   padding:50px;
   border-radius: 10px;
@@ -26,10 +82,91 @@ body{
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 
 }
+
+.education-glass{
+  width: 500px;
+  height: 400px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  
+  
+  margin: 0 auto;
+}
+
+.certifications-glass{
+  width: 690px;
+  height: 400px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  margin: 0 auto;
+
+}
+
+.technical-glass{
+  width: 690px;
+  height: 400px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  margin: 0 auto;
+
+}
+
+.experince-glass{
+  width: 690px;
+  height: 700px;
+  background-color: rgba(225, 225, 225, 0.1);
+  padding:50px;
+  border-radius: 10px;
+  backdrop-filter: blur(35px);
+  border: 2px solid transparent;
+  background-clip: padding-box ;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  margin: 0 auto;
+
+}
+
 h2{
   color: #BEA181;
 }
 a{
   color: #BEA181;
   text-decoration: none;
+}
+
+p{
+  color: #BEA181;
+}
+.about-disclaimer{
+  color: #BEA181;
+  font-size: xx-small;
+}
+
+ul{
+  color: #BEA181;
+}
+
+li{
+  color: #BEA181;
+}
+h3{
+  color: #EC8147;
 }
